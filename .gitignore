@@ -1,0 +1,40 @@
+### macOS ###
+
+.DS_Store
+
+### Xcode ###
+
+build/
+xcuserdata/
+
+### Swift Package Manager ###
+
+.build/
+Packages/
+.swiftpm
+
+### Cocoapods ###
+Pods/
+
+### fastlane ###
+
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/screenshots/screenshots.html
+fastlane/test_output
+fastlane/README.md
+fastlane/.env
+fastlane/assets/*.ttc
+
+### App packaging ###
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+### IDEA ###
+.idea/
+
+### Prepared ###
+Prepared/Alternate Icons/**
+!Prepared/Alternate Icons/.gitkeep

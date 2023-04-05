@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3195978C29DEFCC800C53272 /* CustomListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3195978B29DEFCC800C53272 /* CustomListCell.swift */; };
 		31D7C54E29DD248C00328827 /* UICollectionViewListLayoutTroubleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D7C54D29DD248C00328827 /* UICollectionViewListLayoutTroubleApp.swift */; };
-		31D7C55029DD248C00328827 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D7C54F29DD248C00328827 /* ContentView.swift */; };
+		31D7C55029DD248C00328827 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D7C54F29DD248C00328827 /* ListView.swift */; };
 		31D7C55229DD248D00328827 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31D7C55129DD248D00328827 /* Assets.xcassets */; };
 		31D7C55529DD248D00328827 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31D7C55429DD248D00328827 /* Preview Assets.xcassets */; };
 		31D7C55F29DD248D00328827 /* UICollectionViewListLayoutTroubleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D7C55E29DD248D00328827 /* UICollectionViewListLayoutTroubleTests.swift */; };
 		31D7C56929DD248D00328827 /* UICollectionViewListLayoutTroubleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D7C56829DD248D00328827 /* UICollectionViewListLayoutTroubleUITests.swift */; };
 		31D7C56B29DD248D00328827 /* UICollectionViewListLayoutTroubleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D7C56A29DD248D00328827 /* UICollectionViewListLayoutTroubleUITestsLaunchTests.swift */; };
+		31D7C57929DD24A100328827 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D7C57829DD24A100328827 /* ListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3195978A29DDAA2D00C53272 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3195978B29DEFCC800C53272 /* CustomListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomListCell.swift; sourceTree = "<group>"; };
 		31D7C54A29DD248C00328827 /* UICollectionViewListLayoutTrouble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UICollectionViewListLayoutTrouble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31D7C54D29DD248C00328827 /* UICollectionViewListLayoutTroubleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewListLayoutTroubleApp.swift; sourceTree = "<group>"; };
-		31D7C54F29DD248C00328827 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		31D7C54F29DD248C00328827 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		31D7C55129DD248D00328827 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31D7C55429DD248D00328827 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		31D7C55A29DD248D00328827 /* UICollectionViewListLayoutTroubleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UICollectionViewListLayoutTroubleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +48,7 @@
 		31D7C56429DD248D00328827 /* UICollectionViewListLayoutTroubleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UICollectionViewListLayoutTroubleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31D7C56829DD248D00328827 /* UICollectionViewListLayoutTroubleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewListLayoutTroubleUITests.swift; sourceTree = "<group>"; };
 		31D7C56A29DD248D00328827 /* UICollectionViewListLayoutTroubleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewListLayoutTroubleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		31D7C57829DD24A100328827 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,9 +76,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3195978D29DEFD0700C53272 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				31D7C54F29DD248C00328827 /* ListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3195978E29DEFD7C00C53272 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3195978B29DEFCC800C53272 /* CustomListCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		31D7C54129DD248C00328827 = {
 			isa = PBXGroup;
 			children = (
+				3195978A29DDAA2D00C53272 /* README.md */,
 				31D7C54C29DD248C00328827 /* UICollectionViewListLayoutTrouble */,
 				31D7C55D29DD248D00328827 /* UICollectionViewListLayoutTroubleTests */,
 				31D7C56729DD248D00328827 /* UICollectionViewListLayoutTroubleUITests */,
@@ -94,8 +116,10 @@
 		31D7C54C29DD248C00328827 /* UICollectionViewListLayoutTrouble */ = {
 			isa = PBXGroup;
 			children = (
+				3195978E29DEFD7C00C53272 /* Cell */,
+				3195978D29DEFD0700C53272 /* View */,
+				31D7C57829DD24A100328827 /* ListViewController.swift */,
 				31D7C54D29DD248C00328827 /* UICollectionViewListLayoutTroubleApp.swift */,
-				31D7C54F29DD248C00328827 /* ContentView.swift */,
 				31D7C55129DD248D00328827 /* Assets.xcassets */,
 				31D7C55329DD248D00328827 /* Preview Content */,
 			);
@@ -257,8 +281,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31D7C55029DD248C00328827 /* ContentView.swift in Sources */,
+				31D7C55029DD248C00328827 /* ListView.swift in Sources */,
 				31D7C54E29DD248C00328827 /* UICollectionViewListLayoutTroubleApp.swift in Sources */,
+				3195978C29DEFCC800C53272 /* CustomListCell.swift in Sources */,
+				31D7C57929DD24A100328827 /* ListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
